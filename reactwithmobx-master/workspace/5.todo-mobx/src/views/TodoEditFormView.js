@@ -28,7 +28,7 @@ class TodoEditFormView extends PureComponent {
               // todo에title이 있는지 확인을 하고, 타이틀이 있다면 타이틀을 집어넣고
               // 없으면 빈 문자열을 집어넣는다.(value)
               onChange={(event) => onSetTodoProps("title", event.target.value)}
-              //onChange가 일어날 때 이벤트를 받을 거다(파라미터로)
+              // onChange가 일어날 때 이벤트를 받을 거다(파라미터로)
               //이 때 온셋투두프롭스를 호출하면서 지금 바꾼 건 텍스트필드이므로
               //  네임이 타이틀이 되고 실제 값은 이벤트의 타겟의 벨류가 된다.
               // 이러면 이벤트 발생할 때마다 그 값을
